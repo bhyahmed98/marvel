@@ -1,0 +1,24 @@
+
+
+
+<ul>
+    <li *ngFor ="let character of dataSource">
+      <a>
+        <img src="{{character.imageUrl}}" alt="">
+      </a>
+      <div class="content">
+        
+        <div class="name">
+          name : {{character.name}}
+        </div>
+        <div class="description">
+          description : {{character.description}}
+        </div>
+    </div>
+
+    </li>
+</ul>
+
+
+
+
